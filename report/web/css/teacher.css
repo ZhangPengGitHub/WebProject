@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+#information p{float:left;}
+#information #p1{margin-left:40px;margin-right:900px;}
+#information #p2{margin-right:20px;}
+.clear{clear:both;}
+#title{height:36px;}
+#title h1{font-size:24px;color:red;text-align:center;margin-top:20px;float:center;}
+
+.content .display{float:left;margin-top:0;margin-left:50px;}
+.content .display2{float:left;margin-left:50px;}
+.content #plan{width:1200px;border:1px solid #999;float:left;margin-left:50px;word-break:break-all;}
+.content #work{width:1200px;border:1px solid #999;float:left;margin-left:50px;word-break:break-all;}
+.input .button1{width:75px;margin-left:600px;}
+.input .button2{width:75px;margin-left:20px;}
+.content .wall{margin-left:50px;color:red;}

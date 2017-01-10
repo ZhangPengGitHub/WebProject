@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+#information p{float:left;}
+#information #p1{margin-left:50px;margin-right:800px;}
+#information #p2{margin-right:20px;}
+#information #p3{margin-right:20px;}
+.clear{clear:both;}
+#title{height:36px;}
+#title h1{font-size:24px;color:red;text-align:center;margin-top:20px;float:center;}
+#content{width:550px;border:5px solid #999;margin:0 auto;}
+#content .head{margin-left:25px;}
+#content .week{width:500px;border:1px solid #999;margin:0 auto;word-break:break-all;}
+#content .radio {margin-left:25px;margin-top:10px;}
+#content .button{margin-left:40px;margin-top:10px;}
+#content .input {margin-left:25px;}
+#content .input textarea{height:250px;}
+#content .input .button1{width:75px;margin-left:165px;}
+#content .input .button2{width:75px;margin-left:20px;}

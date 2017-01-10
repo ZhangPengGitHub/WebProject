@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Index</servlet-name>
+    <servlet-class>com.servlet.Index</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Student</servlet-name>
+    <servlet-class>com.servlet.Student</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Teacher</servlet-name>
+    <servlet-class>com.servlet.Teacher</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Comment</servlet-name>
+    <servlet-class>com.servlet.Comment</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Password</servlet-name>
+    <servlet-class>com.servlet.Password</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Work</servlet-name>
+    <servlet-class>com.servlet.Work</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StudentWork</servlet-name>
+    <servlet-class>com.servlet.StudentWork</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StudentPlan</servlet-name>
+    <servlet-class>com.servlet.StudentPlan</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>WorkStudent</servlet-name>
+    <servlet-class>com.servlet.WorkStudent</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>WorkTeacher</servlet-name>
+    <servlet-class>com.servlet.WorkTeacher</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>WorkAdd</servlet-name>
+    <servlet-class>com.servlet.WorkAdd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Back</servlet-name>
+    <servlet-class>com.servlet.Back</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Temp</servlet-name>
+    <servlet-class>com.servlet.Temp</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Whatdaywork</servlet-name>
+    <servlet-class>com.servlet.Whatdaywork</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StudentReason</servlet-name>
+    <servlet-class>com.servlet.StudentReason</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Alter</servlet-name>
+    <servlet-class>com.servlet.Alter</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletTest</servlet-name>
+    <servlet-class>com.servlet.ServletTest</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Index</servlet-name>
+    <url-pattern>/Index</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Student</servlet-name>
+    <url-pattern>/Student</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Teacher</servlet-name>
+    <url-pattern>/Teacher</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Comment</servlet-name>
+    <url-pattern>/Comment</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Password</servlet-name>
+    <url-pattern>/Password</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Work</servlet-name>
+    <url-pattern>/Work</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentWork</servlet-name>
+    <url-pattern>/StudentWork</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentPlan</servlet-name>
+    <url-pattern>/StudentPlan</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WorkStudent</servlet-name>
+    <url-pattern>/WorkStudent</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WorkTeacher</servlet-name>
+    <url-pattern>/WorkTeacher</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WorkAdd</servlet-name>
+    <url-pattern>/WorkAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Back</servlet-name>
+    <url-pattern>/Back</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Temp</servlet-name>
+    <url-pattern>/Temp</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Whatdaywork</servlet-name>
+    <url-pattern>/Whatdaywork</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentReason</servlet-name>
+    <url-pattern>/StudentReason</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Alter</servlet-name>
+    <url-pattern>/Alter</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletTest</servlet-name>
+    <url-pattern>/servlet/ServletTest</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>jsp/index.jsp</welcome-file>
+  </welcome-file-list>
+  <session-config>
+  <session-timeout>1440</session-timeout>
+  </session-config>
+</web-app>
