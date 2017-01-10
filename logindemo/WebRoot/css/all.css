@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+body{
+
+BACKGROUND: #000;
+
+	/**FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#60c0ff,endColorStr=#ffffff);/**渐变色*/
+	FILTER: Alpha( style=1,opacity=25,finishOpacity=100,startX=50,finishX= 100,startY=50,finishY=100);
+	background-color: skyblue;
+	*/
+}
