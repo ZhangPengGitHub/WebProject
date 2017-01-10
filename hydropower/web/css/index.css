@@ -1,0 +1,12 @@
+@CHARSET "UTF-8";
+.title {width:100%;height:10%;background-color:red;}
+.left {width:29%;float:left;height:90%;overflow:auto;background-color:yellow;}
+.right {width:69%;float:right;height:90%;}
+.showlist {width:95%;height:auto;}
+.prompt {width:95%;height:auto;}
+.list {width:95%;height:auto;}
+.page {width:95%;height:auto;}
+.addtable {width:95%;height:auto;}
+.querytable {width:95%;height:auto;}
+.show {width:95%;height:auto;}
+.link {width:95%;height:auto;}
